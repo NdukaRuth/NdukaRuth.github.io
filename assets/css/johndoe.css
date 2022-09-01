@@ -11214,7 +11214,7 @@ p {
   -webkit-transition: 0.3s;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
 .portfolio .filters a{
   display: grid;
 }
