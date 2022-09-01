@@ -11217,6 +11217,8 @@ p {
 @media (max-width: 600px) {
 .portfolio .filters a{
   display: grid;
+  font-size: 12px;
+  
 }
 
 }
