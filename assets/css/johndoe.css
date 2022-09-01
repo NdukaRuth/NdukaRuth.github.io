@@ -11214,6 +11214,13 @@ p {
   -webkit-transition: 0.3s;
 }
 
+@media (max-width: 800px) {
+.portfolio .filters a{
+  display: grid;
+}
+
+}
+
 .portfolio .filters a:first-child {
   margin-left: 0;
 }
