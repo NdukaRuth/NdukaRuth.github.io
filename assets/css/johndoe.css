@@ -11472,7 +11472,7 @@ pre .code {
   color: #888;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 800px) {
   .navbar .brand {
     display: none;
   }
@@ -11573,7 +11573,7 @@ pre .code {
   margin-bottom: 40px;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 600px) {
   .header {
     height: 500px;
     min-height: 500px;
@@ -11661,7 +11661,7 @@ pre .code {
   padding: 40px 0;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 600px) {
   .contact {
     padding: 300px 0 0;
   }
