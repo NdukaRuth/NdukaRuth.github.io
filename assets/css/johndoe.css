@@ -82,8 +82,35 @@ body {
   padding: 100;
   color: #212529;
   text-align: left;
-  background-color: rgb(212, 218, 233);
+  background-color: rgb(230, 234, 246);
 }
+
+.body2 {
+  margin: 30px;
+  margin-right: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  padding: 100;
+  color: #212529;
+  text-align: left;
+  background-color: rgb(175, 189, 231);
+}
+
+.body3 {
+  margin: 30px;
+  margin-right: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  padding: 100;
+  color: #212529;
+  text-align: left;
+  background-color: rgb(255, 255, 255);
+}
+
 img{
   margin: 1px auto;
   margin-top: 50px;
@@ -11218,8 +11245,7 @@ p {
 .portfolio .filters a{
   display: grid;
   font-size: 12px;
-  
-}
+  }
 
 }
 
