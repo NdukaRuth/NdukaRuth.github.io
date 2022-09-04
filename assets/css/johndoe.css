@@ -111,6 +111,19 @@ body {
   background-color: rgba(205, 190, 190, 0.576);
 }
 
+.body4 {
+  margin: 30px;
+  margin-right: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  padding: 100;
+  color: #212529;
+  text-align: left;
+  background-color: rgba(174, 150, 227, 0.576);
+}
+
 img{
   margin: 1px auto;
   margin-top: 50px;
@@ -11568,8 +11581,8 @@ pre .code {
   position: relative;
   height: 60vh;
   min-height: 400px;
-  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(Images\full.jpg);
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(Images\full.jpg);
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(".Images/full.jpg.JPG") ;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(".Images/full.jpg.JPG") ;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
