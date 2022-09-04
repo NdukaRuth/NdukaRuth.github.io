@@ -124,7 +124,7 @@ body {
   background-color: rgba(174, 150, 227, 0.576);
 }
 
-img{
+Img{
   margin: 1px auto;
   margin-top: 50px;
   margin-bottom: 20px;
@@ -11580,14 +11580,14 @@ pre .code {
 .header {
   position: relative;
   height: 60vh;
-  min-height: 400px;
-  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(".Images/full.jpg.JPG") ;
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(".Images/full.jpg.JPG") ;
+  min-height: 500px;
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),  url(/Images/smiley.jpg.JPG) ;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),  url(/Images/smiley.jpg.JPG) ;
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+    background-position: center;
+   background-repeat: no-repeat;
   background-attachment: fixed;
-  color: #fff;
+    color: #fff;
 }
 
 .header .container {
