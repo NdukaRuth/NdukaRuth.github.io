@@ -8,9 +8,12 @@
     <title>Ruth Nduka | Portfolio</title>
     <!-- font icons -->
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
-    <!-- Bootstrap + JohnDoe main styles -->
+        <!-- Bootstrap + JohnDoe main styles -->
 	<link rel="stylesheet" href="assets/css/johndoe.css">
-</head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
   
     <header class="header">
@@ -24,7 +27,9 @@
                 <h4 class="header-subtitle" >Hello, I am</h4>
                 <h1 class="header-title">Chizaram Ruth Nduka</h1>
                 <h6 class="header-mono" >Technical Writer</h6>
-
+                <a href="https://docs.google.com/document/d/1mHzHwwrjrt0VY2UVdOa6zJSBA_nRRh48F9Lrpzf0K-g/edit">
+                    <button class="btn bg-primary w-lg" >Resume</button>
+                </a>
             </div>
         </div>
     </header>
@@ -35,28 +40,31 @@
             </button>
             <div class="collapse mt-sm-20 navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a href="#home" class="nav-link">Home</a>
-                    </li>
-                    <li class="nav-item">
+                    <li class="active">
                         <a href="#about" class="nav-link">About</a>
                     </li>
-                    <li class="nav-item">
+                    <li>
                         <a href="#doings" class="nav-link">what I can do</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="nav-link">Portfolio</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav brand">
                     <img src="Images/full.jpg.JPG" alt="" class="brand-img">
                     <li class="brand-txt">
                         <h5 class="brand-title">Chizaram Ruth Nduka</h5>
-                        <div class="brand-subtitle">Techincal Writer| Software Development Project Manager</div>
+                        <div class="brand-subtitle">Techincal Writer</div>
                     </li>
                 </ul>
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a href="#portfolio" class="nav-link">Portfolio</a>
+                    <li>
+                        <a href="#clients" class="nav-link">Clients/ Contributions</a>
                     </li>
-                    <li class="nav-item last-item">
+                    <li>
+                        <a href="https://ruthnduka.hashnode.dev/" class="nav-link">Blog</a>
+                    </li>
+                    <li>
                         <a href="#contact" class="nav-link">Contact</a>
                     </li>
                 </ul>
@@ -251,23 +259,60 @@
     </section>
 
 
-        </div>
-    </section>
-    <section class="section bg-dark py-5">
+        <!--Clients-->
+<div class="client area">
+<div class="containerS">
+<h2>Happy <span>Clients</span></h2>
+<section class="Logo-area-slider" id="clients">
+    <div class="slide"><img src="Images/Zarrah Black.png" height="100" width="250" alt=""/></div>
+    <div class="slide"><img src="Images/ad copy.jpg" height="100" width="250" alt=""/></div>
+    <div class="slide"><img src="Images/Zarrah Black.png" height="100" width="250" alt=""/></div>
+    <div class="slide"><img src="Images/Zarrah Black.png" height="100" width="250" alt=""/></div>
+</section> 
+</div>
+</div>
+</div>
+</div> 
+
+
+    <script>
+                 $(document).ready(function(){ 
+                    $('.Logo-area') .slick({  
+                slidesToShow: 3, 
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplayspeed: 500,
+                arrows: false,
+                dots: false,
+                pauseOnHover: false,
+                responsive: [{
+                    breakpoint: 768,
+                    setting:{
+                        slidesToShow: 3
+                    }
+                }, {
+                    breakpoint: 520,
+                    setting:{
+                        slidesToShow: 2
+                    }
+                }]
+                 })  
+            }),
+           </script>
+
+        <section class="section bg-dark py-5">
         <div class="container text-center">
-            <h2 class="text-light mb-5 font-weight-normal">I Am Available For FreeLance</h2>
+            <h1 class="text-light mb-5 font-weight-normal">I Am Available For FreeLance</h1>
             <a href="#contact">
             <button class="btn bg-primary w-lg" >Hire me</button>
         </a>
-            
- 
         </div>
     </section>
 
     <!-- Portfolio Section -->
     <section class="section bg-custom-gray" id="portfolio">
         <div class="container">
-            <h1 class="mb-5"><span class="text-danger">My</span> Portfolio</h1>
+            <h2 class="mb-5"><span class="text-danger">My</span> Portfolio</h2>
             <div class="portfolio">
                 <div class="filters">
                     <a href="#" data-filter=".new" class="active">
@@ -747,6 +792,8 @@
             </p>
         </div>
     </footer>
+
+
 
 	<!-- core  -->
     <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
