@@ -674,6 +674,7 @@ pre code {
   display: grid;
   place-items: center;
   justify-content: center;
+  align-items: flex-start;
 }
 h2{
   text-align: center;
@@ -11814,14 +11815,6 @@ pre .code {
   .contact .contact-info-card {
     min-height: auto !important;
   }
-}
-
-.contact .map {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
 }
 
 .contact .contact-form-card,
