@@ -661,12 +661,6 @@ h2 span{
     }
   }
 
-.logo-area{
-  width: auto;
-  position: relative;
-  align-items: flex-start;
-}
-
 .slick-slide{
   margin: 0 20px;
 }
