@@ -616,6 +616,38 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+/*** Carousel ***/
+.carousel-caption {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(9, 30, 62, .7);
+  z-index: 1;
+}
+
+@media (max-width: 576px) {
+  .carousel-caption h5 {
+      font-size: 14px;
+      font-weight: 500 !important;
+  }
+
+  .carousel-caption h1 {
+      font-size: 30px;
+      font-weight: 600 !important;
+  }
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 10%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 3rem;
+  height: 3rem;
+}
 
 .row {
   display: -webkit-box;
@@ -660,72 +692,6 @@ h2 span{
       transform: translateX(cal(-250px *7));
     }
   }
-
-.slick-slide{
-  margin: 0 20px;
-}
-.slick-slide img{
-  width: 100%;
-}
-
-.slick-slider .slick-track,
-.slick-slider .slick-list{
-  transform: translate3d(0,0,0);
-  -moz-transform: translate3d(0,0,0);
-  -ms-transform: translate3d(0,0,0);
-  -o-transform: translate3d(0,0,0);
-  -webkit-transform: translate3d(0,0,0);
-}
-
-
-.slick-slider{
-  position: relative;
-  display: block;
-  box-sizing: border-box;
-}
-.slick-list{
-  position: relative;
-  display: block;
-  overflow: hidden;
-  margin: 0;
-  padding: 0;
-}
-.slick-track{
-  position: relative; 
-  top: 0;
-  left: 0;
-  display: block;
-}
-
-
-.slick-track:before,
-.slick-track:after{
-  display: table;
-  content:'';
-}
-.slick-track:after{
-  clear: both;
-}
-
-.slick-initialized .slick-slide{
-  display: block;
-  }
-  .copy{
-     padding-top: 250px;
-  }
-  .slick-loading .slick-track{
-    visibility: hidden;
-  }
-  .slick-loading .slick-slide{
-    visibility: hidden;
-  }
-  .slick-slide{
-    display: none;
-    float: left;
-    height: 100%;
-    min-height: 1px;
-  }
-
 
 .no-gutters {
   margin-right: 0;
@@ -11881,6 +11847,45 @@ pre .code {
 # Blockchain Header
 --------------------------------------------------------------*/
 .headerr {
+  position: relative;
+  height: 30vh;
+  min-height: 500px;
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),  url(/Images/smiley.jpg.JPG) ;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),  url(/Images/Akive.jpg) ;
+  background-size: cover;
+    background-position: center;
+   background-repeat: no-repeat;
+  background-attachment: fixed;
+    color: #fff;
+}
+
+.headerr1 {
+  position: relative;
+  height: 30vh;
+  min-height: 500px;
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),  url(/Images/smiley.jpg.JPG) ;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),  url(/Images/smiley.jpg.JPG) ;
+  background-size: cover;
+    background-position: center;
+   background-repeat: no-repeat;
+  background-attachment: fixed;
+    color: #fff;
+}
+
+.headerr2 {
+  position: relative;
+  height: 30vh;
+  min-height: 500px;
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),  url(/Images/smiley.jpg.JPG) ;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),  url(/Images/smiley.jpg.JPG) ;
+  background-size: cover;
+    background-position: center;
+   background-repeat: no-repeat;
+  background-attachment: fixed;
+    color: #fff;
+}
+
+.headerr3 {
   position: relative;
   height: 30vh;
   min-height: 500px;
