@@ -616,6 +616,50 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+
+/*** Testimonial ***/
+.vendor-carousel .owl-dots {
+  margin-top: 15px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.vendor-carousel  .owl-dot {
+  position: relative;
+  display: inline-block;
+  margin: 0 5px;
+  width: 15px;
+  height: 15px;
+  background: #1d2124;
+  border-radius: 2px;
+  transition: .5s;
+}
+
+.vendor-carousel  .owl-dot.active {
+  width: 30px;
+  background: var(--primary);
+}
+
+.vendor-carousel  .owl-item.center {
+  position: relative;
+  z-index: 1;
+}
+
+.vendor-carousel  .owl-item .vendor-carousel  {
+  transition: .5s;
+}
+
+.vendor-carousel  .owl-item.center .vendor-item {
+  background: #FFFFFF !important;
+  box-shadow: 0 0 30px #FFFFFF;
+}
+
+.item{
+  margin: 45px;
+}
+
+
 /*** Carousel ***/
 .carousel-caption {
   top: 0;
@@ -4558,7 +4602,7 @@ input[type="button"].btn-block {
   color: #fcf8e3;
 }
 .active, .nav-link:hover  {
-  background: #fa8d9b;
+  background: #FFFFFF;
   border-radius: 10px
 }
 .nav-link.disabled {
